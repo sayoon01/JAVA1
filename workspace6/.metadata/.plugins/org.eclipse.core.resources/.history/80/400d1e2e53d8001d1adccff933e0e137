@@ -1,0 +1,14 @@
+
+public class Plane {
+	String model;
+	int id, capacity;
+	
+	 String toString()
+	{
+		String rslt = "";
+		rslt += ("½Äº°¹øÈ£ : " + id + "Æí\n");
+		rslt += ("¸ðµ¨ : " + model + "\n");
+		rslt += ("½Â°´¼ö : " + capacity + "¸í\n");
+		return rslt;
+	}
+}

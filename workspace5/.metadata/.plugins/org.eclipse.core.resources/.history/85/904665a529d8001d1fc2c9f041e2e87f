@@ -1,0 +1,8 @@
+public class Date {
+	int year, month, day;
+	
+	void print () 
+	{
+		System.out.println(year + "년 " + month + "월 " + year + "일입니다.");
+	}
+}

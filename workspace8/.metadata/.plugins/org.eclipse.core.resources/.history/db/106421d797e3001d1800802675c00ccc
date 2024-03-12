@@ -1,0 +1,10 @@
+
+public class Circle extends Shape{
+	private double radius;
+	
+	public Circle()
+	{
+		super(0,0);
+		radius = 0;
+	}
+}

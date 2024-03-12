@@ -1,0 +1,14 @@
+package nofruit;
+
+import Food.*;
+
+public class Practice67 {
+
+	public static void main(String[] args) {
+		System.out.println("읍식 정보입니다.");
+		
+		Food f0 = new Food();
+		
+	}
+
+}

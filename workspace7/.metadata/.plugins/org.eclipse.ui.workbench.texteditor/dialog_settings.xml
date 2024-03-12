@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="b1.setX(30);"/>
+		<list key="findhistory">
+			<item value="b1.setX(30);"/>
+			<item value="&#x0D;&#x0A;&#x09;&#x09;b1.setX(30);&#x0D;&#x0A;&#x09;&#x09;b1.setY(45);&#x0D;&#x0A;&#x09;&#x09;b1.setZ(53);&#x0D;&#x0A;&#x09;&#x09;b1.fillBox();&#x09;&#x0D;&#x0A;&#x09;"/>
+			<item value="&#x09;System.out.print(&quot;년도 : &quot;);"/>
+			<item value="System.out.print(&quot;년도 : &quot;);"/>
+		</list>
+	</section>
+</section>

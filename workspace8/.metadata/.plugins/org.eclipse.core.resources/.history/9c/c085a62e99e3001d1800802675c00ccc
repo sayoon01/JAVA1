@@ -1,0 +1,23 @@
+
+public class Circle extends Shape{
+	private double radius;
+	
+	public Circle()
+	{
+		super(0,0);
+		radius = 0;
+	}
+	
+	public Circle(double radius)
+	{
+		super(0,0);
+		this.radius = radius;
+	}
+	
+	public Circle(int x, int y, double radius)
+	{
+		setX(x);
+		setY(y);
+		this.radius = radius;
+	}
+}

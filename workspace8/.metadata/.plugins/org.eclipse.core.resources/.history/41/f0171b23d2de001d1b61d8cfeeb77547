@@ -1,0 +1,11 @@
+import java.util.Random;
+
+public class Dice {
+	private int value;
+	private Random rg = new Random();
+	
+	public Dice() {
+		value = 0;
+		rg = rg.nextInt(6) + 1;
+	}
+}

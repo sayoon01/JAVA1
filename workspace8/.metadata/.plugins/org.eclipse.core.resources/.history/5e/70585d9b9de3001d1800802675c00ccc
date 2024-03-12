@@ -1,0 +1,12 @@
+
+public class VisitingStudent extends Student{
+	public int calcScholarship()
+	{
+		return (int)getGpa();
+	}
+
+	@Override
+	public String toString() {
+	}
+	
+}

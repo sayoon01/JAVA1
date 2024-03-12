@@ -1,0 +1,22 @@
+
+public class Cylinder extends Circle{
+	private double height;
+	
+	public Cylinder()
+	{
+		this();
+	}
+	public Cylinder(double radius)
+	{
+		this(0,0,radius,0);
+	}
+	public Cylinder(double radius, double height)
+	{
+		this(0,0,radius,height);
+	}
+	public Cylinder(int x, int y, double radius, double height)
+	{
+		super(x,y,radius);
+		this.height = height;
+	}
+}

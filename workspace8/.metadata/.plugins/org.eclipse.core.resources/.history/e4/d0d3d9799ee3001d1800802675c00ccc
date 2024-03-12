@@ -1,0 +1,18 @@
+
+public class VisitingStudent extends Student{
+	public int calcScholarship()
+	{
+		return (int)getGpa();
+	}
+	
+	public VisitingStudent()
+	{
+		super();
+	}
+	@Override
+	public String toString() {
+		String s = super.toString();
+		return s;
+	}
+	
+}

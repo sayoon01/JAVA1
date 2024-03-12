@@ -1,0 +1,31 @@
+public class Plane {
+	private String model;
+	private int id, capacity;
+	static int planes = 0;
+	
+	void setModel (String model) { this.model = model;}
+	void setId (int id) { this.id = id;}
+	void setCapacity(int capacity) { this.capacity = capacity;}
+	
+	public Plane()
+	{
+		this(0, "¸ð¸§", 0);
+	}
+	
+	public Plane(int id, String model, int capacity) 
+	{
+		this.id = id;
+		this.model = model;
+		this.capacity = capacity;
+		planes++;
+	}
+	int getPlanes() { return planes; }
+	public String toString()
+	{
+		String rslt = "";
+		rslt += ("½Äº°¹øÈ£ : " + id + "Æí\n");
+		rslt += ("¸ðµ¨ : " + model + "\n");
+		rslt += ("½Â°´¼ö : " + capacity + "¸í\n");
+		return rslt;
+	}
+}

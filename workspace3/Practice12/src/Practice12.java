@@ -1,0 +1,60 @@
+import java.util.Scanner;
+
+public class Practice12 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("첫 번쨰 숫자를 입력하세요 : ");
+		int num1 = sc.nextInt();
+		System.out.print("두 번째 숫자를 입력하세요 : ");
+		int num2 = sc.nextInt();
+		System.out.print("세 번째 숫자를 입력하세요 : ");
+		int num3 = sc.nextInt();
+		
+		/* int minNum = -10000;
+		if (num1<num2) {
+			minNum = num1;	
+		}
+		else
+		{
+			minNum = num2;
+		}
+		
+		if(num3<minNum)
+		{
+			minNum = num3;
+		} */
+		/*int minNum;
+	
+		minNum = num1;
+		if(num2 < minNum)
+		{
+			minNum = num2;
+			if(num3 < minNum)
+			{
+				minNum = num3;
+			}
+		}
+		else if (num3 < minNum)
+		{
+			minNum = num3;
+		}*/
+		int minNum;
+		minNum = num1;
+		if(num2 < minNum)
+		{
+			minNum = num2;
+		}
+		if(num3 < minNum)
+		{
+			minNum = num3;
+		}
+		
+		System.out.println("가장 작은 숫자는 " + minNum + "입니다.");
+		
+		sc.close();
+	}
+
+}

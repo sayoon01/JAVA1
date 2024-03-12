@@ -1,0 +1,19 @@
+public class Practice49 {
+
+	public static void main(String[] args) {
+		Plane p0 = new Plane();
+		String s0 = p0.toString();
+		System.out.println("디폴트 비행기의 정보입니다.");
+		System.out.println(s0);
+		
+		Plane p1 = new Plane();
+		setId(1030615);
+		setModel("보잉 737");
+		setCapacity(1030615);
+		String s1 = p1.toString();
+		System.out.println("디폴트 비행기의 정보입니다.");
+		System.out.println(s0);
+		
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Practice32 {
+
+	public static void main(String[] args) {
+		Date birthday,adultday;
+		birthday = new Date();
+		adultday = new Date();
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("태어난 년도를 입력하세요 : ");
+		birthday.year = sc.nextInt();
+		adultday.year = birthday.year + 20;
+		System.out.print("태어난 월을 입력하세요 : ");
+		birthday.month = sc.nextInt();
+		adultday.month = birthday.month;
+		System.out.print("태어난 날짜를 입력하세요 : ");
+		birthday.day = sc.nextInt();
+		adultday.day = birthday.day;
+		sc.close();
+		
+		System.out.println("당신의 생일은 " + obj.year + "년 " + obj.month + "월 " + obj.day + "일입니다.");
+	}
+
+	}
+
+}

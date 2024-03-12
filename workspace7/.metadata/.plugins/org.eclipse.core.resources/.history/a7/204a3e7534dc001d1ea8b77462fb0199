@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Practice59 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Animal a = new Animal();
+		System.out.println("Animal 객체 animal을 생성합니다.");
+		System.out.println("사진에 추가할 문장을 입력하세요 : ");
+		a.picture = sc.next();
+		System.out.print("몸무게를 입력하세요 : ");
+		a.setWeight(sc.nextDouble());
+		a.eat();
+		
+		Lion buba = new Lion();
+		System.out.println("Animal 객체 animal을 생성합니다.");
+		System.out.println("사진에 추가할 문장을 입력하세요 : ");
+		buba.picture = sc.next();
+		System.out.print("몸무게를 입력하세요 : ");
+		buba.setWeight(sc.nextDouble());
+		buba.eat();
+		buba.roar();
+	}
+
+}

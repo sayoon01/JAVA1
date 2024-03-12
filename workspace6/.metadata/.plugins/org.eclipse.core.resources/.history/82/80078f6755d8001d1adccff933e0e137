@@ -1,0 +1,32 @@
+public class Practice49 {
+
+	public static void main(String[] args) {
+		Plane obj1 = new Plane();
+		Plane obj2 = new Plane();
+		Plane obj3 = new Plane();
+		
+		obj1.id = 0;
+		obj2.id = 1030615;
+		obj3.id = 2464737;
+		
+		obj1.model = "모름";
+		obj2.model = "보잉 737";
+		obj3.model = "보잉 747";
+		
+		obj1.capacity = 0;
+		obj2.capacity = 75;
+		obj3.capacity = 150;
+		
+		String s1 = obj1.toString();
+		String s2 = obj2.toString();
+		String s3 = obj3.toString();
+		
+		System.out.println("디폴트 비행기의 정보입니다.");
+		System.out.print(s1);
+		System.out.println("제주행 비행기의 정보입니다.");
+		System.out.print(s2);
+		System.out.println("서울 비행기의 정보입니다.");
+		System.out.print(s3);
+	}
+
+}

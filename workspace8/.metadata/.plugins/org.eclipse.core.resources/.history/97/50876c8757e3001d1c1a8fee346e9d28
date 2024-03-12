@@ -1,0 +1,8 @@
+import java.util.Scanner;
+
+public class Practice76 {
+	Scanner sc = new Scanner(System.in);
+	
+	Rectangle rec1 = new Rectangle();
+	rec1.setWidth(sc.nextInt());
+}

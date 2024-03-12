@@ -1,0 +1,14 @@
+public class MeterialBox extends Box{
+	private String attribute;
+	
+	public void setAttribute(String attribute) { this.attribute = attribute;}
+	public String getAttribute() {return attribute;}
+	
+	public MeterialBox(int width,int length,int height,String attribute)
+	{
+		setX(width);
+		setY(length);
+		setZ(height);
+		getAttribute(attribute);
+	}
+}

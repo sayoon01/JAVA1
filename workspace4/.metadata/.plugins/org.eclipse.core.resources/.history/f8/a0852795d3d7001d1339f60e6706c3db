@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Practice38 {
+
+	public static void main(String[] args) {
+		Person p1 = new Person();
+		Person p2 = new Person();
+		Person p3 = new Person();
+		
+		p1.name = "김동덕";
+		p2.name = "홍길동";
+		p3.name = "성춘향";
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print(p1.name + "나이는? ");
+		p1.age = sc.nextInt();
+		System.out.print(p2.name + "나이는? ");
+		p2.age = sc.nextInt();
+		System.out.print(p3.name + "나이는? ");
+		p3.age = sc.nextInt();
+		sc.close();
+		
+		int max, mid;
+		if(p1.age < p2.age)
+		{
+			max = p2.age;
+		}
+		else
+		{
+			max = p1.age;
+		}
+		
+		if(max < p3.age)
+		{
+			mid = max;
+		}
+		else
+		{
+			mid = p3.age;
+		}
+		
+		System.out.println("나이가 중간인 사람은 " + p3.name + "입니다.");
+	}
+
+}

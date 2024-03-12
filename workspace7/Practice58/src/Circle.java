@@ -1,0 +1,17 @@
+public class Circle extends Shape {
+	int radius;
+	
+	public Circle(int radius) {
+		this.radius = radius;
+		x = 0;
+		y = 0;
+	}
+	
+	double calcArea() {
+		return 3.14 * radius * radius;
+	}
+	
+	public void print() {
+		System.out.println("(" + x + ", " + y + ")");	
+	}
+}

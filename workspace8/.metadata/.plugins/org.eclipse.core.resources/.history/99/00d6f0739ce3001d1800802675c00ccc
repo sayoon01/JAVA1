@@ -1,0 +1,7 @@
+
+public class VisitingStudent extends Student{
+	public int calcScholarship()
+	{
+		return getGpa();
+	}
+}

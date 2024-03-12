@@ -1,0 +1,24 @@
+import java.util.Random;
+
+public class Dice {
+	private int value;
+	private Random rg = new Random();
+	
+	
+	public Dice() {
+		this.value = 0;
+		this.rg = 0;
+	}
+
+
+	public void roll() {
+		value = rg.nextInt(6)+1;
+	}
+	
+	public int getValue() {
+		return value;
+	}
+	private void setValue(int value) {
+		this.value = value;
+	}
+}

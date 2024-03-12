@@ -1,0 +1,12 @@
+public class BankAccount {
+	private String  name, accountNo;
+	private int balance;
+	private double interest;
+	
+	public void setName(String name) { this.name = name; }
+	public void setAccountNo(String accountNo) { this.accountNo = accountNo; }
+	public void setBalance(int balance) {this.balance = balance;}
+	public void setInterest (double interest) { this.interest = interest; }
+	
+	public bankAccount()
+}

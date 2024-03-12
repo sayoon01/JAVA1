@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Practice69 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Shape obj1 = new Shape();
+		System.out.println("도형 정보를 입력하세요");
+		System.out.print("중심좌표의 X값 : ");
+		obj1.setX(sc.nextInt());
+		System.out.print("중심좌표의 X값 : ");
+		obj1.setY(sc.nextInt());
+	}
+
+}

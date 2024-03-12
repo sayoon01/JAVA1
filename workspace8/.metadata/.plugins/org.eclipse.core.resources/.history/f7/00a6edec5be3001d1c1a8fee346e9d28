@@ -1,0 +1,34 @@
+import java.util.Random;
+
+public class Practice78 {
+	public static void main(String[] args) {
+		Random rg = new Random();
+		
+		BankAccount obj1 = new BankAccount();
+		BankAccount obj2 = new BankAccount();
+		BankAccount obj3 = new BankAccount();
+		
+		obj1.setName("김동덕");
+		obj1.setAccountNo(rg.nextInt(1000)+"-"+rg.nextInt(1000));
+		obj1.setBalance(600);
+		obj1.setRate(3.1);
+		
+		obj2.setName("홍길동");
+		obj2.setAccountNo(rg.nextInt(1000)+"-"+rg.nextInt(1000));
+		obj2.setBalance(500);
+		obj2.setRate(2.15);
+		
+		obj3.setName("성춘향");
+		obj3.setAccountNo(rg.nextInt(1000)+"-"+rg.nextInt(1000));
+		obj3.setBalance(500);
+		obj3.setRate(2.05);
+		
+		String s1 = obj1.toString();
+		System.out.println("첫 번째 은행 계좌의 정보입니다." + s1);
+		
+		String s2 = obj2.toString();
+		System.out.println("두 번째 은행 계좌의 정보입니다." + s2);
+		
+	}
+
+}

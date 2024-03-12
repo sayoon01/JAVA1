@@ -1,0 +1,8 @@
+public class Date {
+	int year, month, day;
+	
+	public String toString() 
+	{
+		return (year + "³â " + month + "¿ù " + day + "ÀÏ");
+	}
+}

@@ -1,0 +1,8 @@
+public class Shape {
+	private int x, y;
+	
+	public Shape() {
+		x = 0;
+		y = 0;
+	}
+}

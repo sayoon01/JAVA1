@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class Practice38 {
+
+	public static void main(String[] args) {
+		Person p1 = new Person();
+		Person p2 = new Person();
+		Person p3 = new Person();
+		
+		p1.name = "±èµ¿´ö";
+		p2.name = "È«±æµ¿";
+		p3.name = "¼ºÃáÇâ";
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print(p1.name + "³ªÀÌ´Â? ");
+		p1.age = sc.nextInt();
+		System.out.print(p2.name + "³ªÀÌ´Â? ");
+		p2.age = sc.nextInt();
+		System.out.print(p3.name + "³ªÀÌ´Â? ");
+		p3.age = sc.nextInt();
+		
+		int max;
+		if(p1.age < p2.age)
+		{
+			max = p2.age;
+		}
+		else
+		{
+			max = p1.age;
+		}
+		
+		
+	}
+
+}

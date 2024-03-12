@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Practice58 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Shape s = new Shape();
+		System.out.println("Shape °´Ã¼ Á¤º¸¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");
+		System.out.print("xÁÂÇ¥ : ");
+		s.x = sc.nextInt();
+		System.out.print("yÁÂÇ¥ : ");
+		s.y = sc.nextInt();
+		
+		Circle c1 = new Circle();
+		System.out.println("Circle °´Ã¼ Á¤º¸¸¦ ÀÔ·ÂÇÏ¼¼¿ä. ");
+		System.out.print("xÁÂÇ¥ : ");
+		c1.x = sc.nextInt();
+		System.out.print("yÁÂÇ¥ : ");
+		c1.y = sc.nextInt();
+	}
+
+}

@@ -1,0 +1,12 @@
+public class Practice50 {
+
+	public static void main(String[] args) {
+		Box b0 = new Box();
+		Box b1 = new Box();
+		b1.setX(30);
+		b1.setY(45);
+		b1.setZ(53);
+		Box b2 = new Box(100, 60, 20);
+	}
+
+}

@@ -1,0 +1,18 @@
+
+public class Practice77 {
+
+	public static void main(String[] args) {
+		Student stu0 = new Student(1111, 100, 3.2);
+		String s0 = stu0.toString();
+		System.out.println(s0);
+		
+		Student stu1 = new Student(2222, 100, 4.1);
+		System.out.println(stu1.toString());
+		
+		Student stu2 = new Student(3333, 100, 3.4);
+		System.out.println(stu2.toString());
+		
+		Student.printInfo(stu0, stud0);
+	}
+
+}

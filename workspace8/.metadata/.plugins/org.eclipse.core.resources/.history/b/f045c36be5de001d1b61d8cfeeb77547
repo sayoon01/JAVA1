@@ -1,0 +1,9 @@
+package nofruit;
+
+import fruit.Food;
+
+public class Potato extends Food{
+	public int getUnitPrice() {
+		return price /(int) weight;
+	}
+}

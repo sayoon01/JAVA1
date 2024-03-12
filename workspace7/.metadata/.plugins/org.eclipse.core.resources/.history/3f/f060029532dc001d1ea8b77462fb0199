@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Animal {
+	private double weight;
+	String picture;
+	
+	private String printMsg() { return ("eat()가 호출되었음"); }
+	void eat() {
+		String msg = printMsg();
+		System.out.print(msg);
+	}
+	void sleep() { System.out.print("sleep()가 호출되었음"); }
+	
+	Scanner sc = new Scanner(System.in);
+	public String toString() 
+	{ 
+		System.out.println("사진에 추가할 문장을 입력하세요 : ");
+		String s = sc.next();
+		return s;
+	}
+}

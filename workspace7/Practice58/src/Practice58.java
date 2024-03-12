@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class Practice58 {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		Shape s = new Shape();
+		System.out.println("Shape 객체 정보를 입력하세요. ");
+		System.out.print("x좌표 : ");
+		s.x = sc.nextInt();
+		System.out.print("y좌표 : ");
+		s.y = sc.nextInt();
+		
+		Circle c1 = new Circle(0);
+		System.out.println("첫번째 Circle 객체 정보를 입력하세요. ");
+		System.out.print("x좌표 : ");
+		c1.x = sc.nextInt();
+		System.out.print("y좌표 : ");
+		c1.y = sc.nextInt();
+		System.out.print("반지름 : ");
+		c1.radius = sc.nextInt();
+		
+		Circle c2 = new Circle(0);
+		System.out.println("두번째 Circle 객체 정보를 입력하세요. ");
+		System.out.print("x좌표 : ");
+		c2.x = sc.nextInt();
+		System.out.print("y좌표 : ");
+		c2.y = sc.nextInt();
+		System.out.print("반지름 : ");
+		c2.radius = sc.nextInt();
+		
+		sc.close();
+		
+		System.out.println("Shape 객체 정보입니다.");
+		s.print();
+		
+		
+	}
+
+}
